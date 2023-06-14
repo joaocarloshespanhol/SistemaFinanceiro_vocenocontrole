@@ -18,7 +18,7 @@ export default function BoasVindas() {
 
     return (
         <div className='text-3xl font-black font-sans text-white'>
-            Olá {renderizarNome()} 😀
+            Olá {renderizarNome()} 👋
         </div>
         
     )

@@ -1,7 +1,7 @@
 
 import Area from "../comum/Area";
 import vantagem1 from "../../Images/vantagem1.png";
-import vantagem2 from "../../../../public/vantagem-2.jpg"
+import vantagem2 from "../../Images/vantagem2.png";
 import vantagem3 from "../../../../public/vantagem-3.jpg"
 import Vantagem from "./Vantagem";
 
@@ -17,7 +17,7 @@ export default function Vantagens() {
 
                 <Vantagem
                     imagem={vantagem2}
-                    titulo="Organizado para você nunca mais esquecer uma conta"
+                    titulo="Comece a usar hoje e tenha em mãos cada centavo gasto"
                     subtitulo="Visualize e acompanhe as suas finanças dia a dia. A organização mensal vai te ajudar a ter um controle claro das receitas e despesas!"
                     inverter
                 />
