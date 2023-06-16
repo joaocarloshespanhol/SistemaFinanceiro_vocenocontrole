@@ -1,13 +1,12 @@
-
 import Area from "../comum/Area";
 import vantagem1 from "../../Images/vantagem1.png";
 import vantagem2 from "../../Images/vantagem2.png";
-import vantagem3 from "../../../../public/vantagem-3.jpg"
+import vantagem3 from "../../Images/vantagem3.png";
 import Vantagem from "./Vantagem";
 
 export default function Vantagens() {
     return(
-        <Area id="vantagens" className="bg-black py-16 sm:py-36">
+        <Area id="vantagens" className="bg-gradient-to-r from-black via-zinc-900 to-black py-16 sm:py-36">
             <div className="flex flex-col items-center gap-y-16 sm:gap-y-36 ">
                 <Vantagem
                     imagem={vantagem1}
@@ -18,13 +17,13 @@ export default function Vantagens() {
                 <Vantagem
                     imagem={vantagem2}
                     titulo="Comece a usar hoje e tenha em mãos cada centavo gasto"
-                    subtitulo="Visualize e acompanhe as suas finanças dia a dia. A organização mensal vai te ajudar a ter um controle claro das receitas e despesas!"
+                    subtitulo="Visualize e acompanhe suas finanças dia a dia de maneira simples. A organização vai te ajudar a estar no controle de suas receitas e despesas!"
                     inverter
                 />
                 <Vantagem
                     imagem={vantagem3}
-                    titulo="Ideal para planejamento financeiro"
-                    subtitulo="Nosso princípio número 1 é ser uma plataforma que torne o controle financeiro simples, então o planejamento se torna algo natural!"
+                    titulo="Planejar hoje para viver experiências únicas amanhã"
+                    subtitulo="O planejamento contínuo sempre irá te fazer estar no controle do seu destino, construindo uma trajetória repleta de conquistas, aprendizados e gratificações."
                 />
             </div>
         </Area>

@@ -27,7 +27,7 @@ export default function Slogan() {
                     <span
                         className={`
                         flex items-center p-1
-                        relative text-black
+                        relative text-zinc-900
                     `}
                     >
                         <span className="absolute top-0.5 left-0 w-full h-5/6 bg-green-500 rounded-sm" />

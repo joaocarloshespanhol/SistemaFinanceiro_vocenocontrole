@@ -15,8 +15,8 @@ export default function Menu () {
             <MenuItem url="#vantagens" className="hidden sm:flex font-semibold font-mono">
                 Vantagens
             </MenuItem>
-            <MenuItem url="#depoimentos" className="hidden sm:flex font-semibold font-mono">
-                Depoimentos
+            <MenuItem url="#motivos" className="hidden sm:flex font-semibold font-mono">
+                Benefícios
             </MenuItem>
             <MenuItem 
                 onClick={loginGoogle}
