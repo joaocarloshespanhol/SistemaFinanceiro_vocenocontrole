@@ -19,7 +19,7 @@ export default function MenuUsuario() {
                     <Avatar
                         size={40}
                         radius="xl"
-                        src={usuario?.imagemUrl ?? 'https://source.unsplash.com/random/100x100/?abstract'}
+                        src={usuario?.imagemUrl ?? ''}
                     />
                 </div>
             </Menu.Target>

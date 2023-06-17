@@ -1,8 +1,6 @@
 
 
 interface MotivosProps {
-    avatar: string
-    nome: string
     titulo: string
     texto: string
     destaque?: boolean
@@ -17,12 +15,8 @@ export default function Motivo(props: MotivosProps) {
         `}>
 
             <div className="flex flex-col items-center">
-                <span className={`
-                    text-xl text-white font-black
-                `}>{props.nome}</span>
-                <span className={`
-                    text-sm text-zinc-400 font-thin
-                `}>{props.titulo}</span>
+                <span className="text-xl text-white font-black rounded-xl">
+                    {props.titulo}</span>
             </div>
             <p className="text-center text-zinc-400">
                 {props.texto}

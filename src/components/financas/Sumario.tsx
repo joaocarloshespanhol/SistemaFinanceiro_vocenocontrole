@@ -1,7 +1,7 @@
 import { TipoTransacao } from '@/logic/core/financas/TipoTransacao'
 import Transacao from '@/logic/core/financas/Transacao'
 import Dinheiro from '@/logic/utils/Dinheiro'
-import { IconArrowsDoubleSwNe, IconCash, IconCreditCard } from '@tabler/icons-react'
+import {IconPigMoney, IconWallet, IconArrowBigDownLinesFilled, IconBrandCashapp } from '@tabler/icons-react'
 import SumarioItem from './SumarioItem'
 
 interface SumarioProps {
@@ -27,20 +27,20 @@ export default function Sumario(props: SumarioProps) {
             <SumarioItem
                 titulo='Receitas'
                 valor={receitas}
-                icone={<IconCash />}
+                icone={<IconBrandCashapp />}
                 iconeClassName="text-green-500"
             />
             <SumarioItem
                 titulo='Despesas'
                 valor={despesas}
-                icone={<IconCreditCard />}
+                icone={<IconWallet/>}
                 iconeClassName="text-red-500"
             />
             <SumarioItem
                 titulo='Total'
                 valor={total}
-                icone={<IconArrowsDoubleSwNe />}
-                iconeClassName="text-yellow-500"
+                icone={<IconPigMoney/>}
+                iconeClassName="text-yellow-600"
                 valorClassName={total > 0 ? 'text-green-500' : total < 0 ? 'text-red-500' : ''}
             />
         </div>

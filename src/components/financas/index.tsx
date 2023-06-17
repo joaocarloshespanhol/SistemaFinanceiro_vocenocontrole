@@ -11,6 +11,7 @@ import Formulario from "./Formulario";
 import Grade from "./Grade";
 import Lista from "./Lista";
 import Sumario from "./Sumario";
+import Graficos from "./Graficos";
 
 export default function Financas() {
     const {
@@ -20,14 +21,14 @@ export default function Financas() {
 
     function renderizarControles() {
         return (
-            <div className="flex justify-between">
+            <div className="flex-col justify-between">
                 <CampoMesAno
                     data={data}
                     dataMudou={alterarData}
                 />
-                <div className="flex gap-2">
+                <div className="flex gap-2 mt-6 md:ml-[60%] lg:ml-[70%] xl:ml-[78%] 2xl:ml-[85%] md:-mt-9">
                     <Button
-                        className="ml-2 mt-0.5 bg-sky-500 hover:bg-sky-600"
+                        className="mt-0.5 bg-sky-500 hover:bg-sky-600"
                         leftIcon={<IconPlus />}
                         onClick={() => selecionar(transacaoVazia)}
                     >Nova transação</Button>
@@ -70,6 +71,7 @@ export default function Financas() {
                         Nenhuma transação encontrada
                     </NaoEncontrado>
                 )}
+                <Graficos />
             </Conteudo>
         </Pagina>
     )

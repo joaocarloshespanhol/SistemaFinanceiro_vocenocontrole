@@ -1,9 +1,8 @@
-/*import AutenticacaoContext from '@/data/contexts/AutenticacaoContext'*/
-import { IconArrowBarUp} from '@tabler/icons-react'
+import AutenticacaoContext from '@/data/contexts/AutenticacaoContext'
 import { useContext } from 'react'
 
 export default function Slogan() {
-    /*const { loginGoogle } = useContext(AutenticacaoContext)*/
+    const { loginGoogle } = useContext(AutenticacaoContext)
 
     function renderizarFrase() {
         return (
@@ -46,8 +45,8 @@ export default function Slogan() {
             </div>
             <div className="flex justify-center sm:justify-start items-center gap-2">
                 <div
+                    onClick={loginGoogle}
                     className="flex items-center cursor-pointer bg-green-600 text-white px-12 py-3 rounded-md">
-                    {/*onClick={loginGoogle}*/}
                     <span className="font-medium md:text-[16px] text-base font-sans">
                         Iniciar <span className="hidden sm:inline">Agora</span>
                     </span>

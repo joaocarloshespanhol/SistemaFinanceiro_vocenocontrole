@@ -12,7 +12,7 @@ export default function MenuItem(props: MenuItemProps) {
         return(
             <div className={`
             flex justify-center items-center cursor-pointer
-            text-black m-2 p-4 rounded-md h-9
+            text-zinc-800 m-2 p-4 rounded-md h-9
             ${props.className ?? ''}
             `} onClick={props.onClick} >
                 {props.children}

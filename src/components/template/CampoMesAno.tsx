@@ -50,15 +50,15 @@ export default function CampoMesAno(props: CampoMesAnoProps) {
     return (
         <div className="flex items-center gap-2">
             <Button className={`
-                flex justify-center items-center bg-red-500
+                flex justify-center items-center bg-sky-500
                 text-white cursor-pointer p-1
-            `} color="red" onClick={decrementar}>
+            `} color="bg-sky-600" onClick={decrementar}>
                 <IconChevronLeft size={14} />
             </Button>
             <Popover withArrow>
                 <Popover.Target>
                     <Button className={`
-                        bg-gradient-to-r from-indigo-600 to-cyan-600
+                        bg-sky-500
                         text-white cursor-pointer select-none 
                         w-full sm:w-44 px-3
                     `}>{Data.mmyy.formatar(data)}</Button>
@@ -77,7 +77,7 @@ export default function CampoMesAno(props: CampoMesAnoProps) {
                                 <Button
                                     key={i}
                                     color={selecionada ? 'red' : 'blue'}
-                                    className={`${selecionada ? 'bg-red-500' : 'bg-blue-500'}`}
+                                    className={`${selecionada ? 'bg-red-500' : 'bg-sky-500'}`}
                                     onClick={() => alterarMes(i)}
                                 >{mes}</Button>
                             )
@@ -86,9 +86,9 @@ export default function CampoMesAno(props: CampoMesAnoProps) {
                 </Popover.Dropdown>
             </Popover>
             <Button className={`
-                flex justify-center items-center bg-red-500
+                flex justify-center items-center bg-sky-500
                 text-white cursor-pointer p-1
-            `} color="red" onClick={incrementar}>
+            `} color="bg-sky-600" onClick={incrementar}>
                 <IconChevronRight size={14} />
             </Button>
         </div>

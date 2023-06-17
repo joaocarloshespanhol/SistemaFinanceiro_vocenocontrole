@@ -16,8 +16,8 @@ export default function Grade(props: GradeProps) {
                 onClick={() => props.selecionarTransacao?.(transacao)}>
                 <div className={` absolute top-0 left-0 w-full h-full bg-gradient-to-r opacity-60
                     ${transacao.tipo === TipoTransacao.RECEITA
-                        ? 'from-teal-500 via-green-600 to-teal-700'
-                        : 'from-pink-500 via-red-600 to-pink-700'
+                        ? 'from-green-600 via-green-600 to-green-600'
+                        : 'from-red-600 via-red-600 to-red-600'
                     }`}></div>
                 <div className="flex justify-between items-center">
                     <span className="z-10 font-light opacity-75">{transacao.descricao}</span>

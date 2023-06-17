@@ -10,23 +10,17 @@ export default function Motivo() {
                 </h2>
                 <div className="flex justify-center xl:justify-between items-center justify-items-center gap-7 w-full flex-wrap">
                     <Motivos
-                        avatar="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2376&q=80"
-                        nome="Gabriel Junior"
-                        titulo="Desenvolvedor de Software"
-                        texto="Estava sempre devendo dinheiro na bodega da esquina. Hoje estou conseguindo pagar tudo em dia e até juntar um pouco de dinheiro."
+                        titulo="Planejamento"
+                        texto="Um sistema financeiro ajuda a estabelecer metas claras e realistas para as finanças pessoais, assim, podendo definir prioridades e estabelecer planos."
                     />
                     <Motivos
-                        avatar="https://images.unsplash.com/photo-1628890923662-2cb23c2e0cfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
-                        nome="Juliana Moraes"
-                        titulo="Diretora Comercial"
-                        texto="Estava sempre devendo dinheiro na bodega da esquina. Hoje estou conseguindo pagar tudo em dia e até juntar um pouco de dinheiro."
+                        titulo="Decisões Inteligentes"
+                        texto="Você terá acesso a dados e informações detalhadas, portanto, poderá tomar decisões inteligentes sobre como gerenciar suas receitas e despesas de forma mais eficiente."
                         destaque
                     />
                     <Motivos
-                        avatar="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2334&q=80"
-                        nome="Rafaela Vieira"
-                        titulo="Servidora Pública"
-                        texto="Estava sempre devendo dinheiro na bodega da esquina. Hoje estou conseguindo pagar tudo em dia e até juntar um pouco de dinheiro."
+                        titulo="Hábitos de Consumo"
+                        texto=" Com informações detalhadas, você poderá identificar padrões de gastos excessivos ou comportamentos financeiros indesejáveis."
                     />
                 </div>
             </div>
