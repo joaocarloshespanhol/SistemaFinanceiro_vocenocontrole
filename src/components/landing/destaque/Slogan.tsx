@@ -46,7 +46,7 @@ export default function Slogan() {
             <div className="flex justify-center sm:justify-start items-center gap-2">
                 <div
                     onClick={loginGoogle}
-                    className="flex items-center cursor-pointer bg-green-600 text-white px-12 py-3 rounded-md">
+                    className="flex items-center cursor-pointer bg-green-600 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-[#00BC63] duration-300 px-12 py-3 rounded-md">
                     <span className="font-medium md:text-[16px] text-base font-sans">
                         Iniciar <span className="hidden sm:inline">Agora</span>
                     </span>

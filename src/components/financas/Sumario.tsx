@@ -1,7 +1,7 @@
 import { TipoTransacao } from '@/logic/core/financas/TipoTransacao'
 import Transacao from '@/logic/core/financas/Transacao'
 import Dinheiro from '@/logic/utils/Dinheiro'
-import {IconPigMoney, IconWallet, IconArrowBigDownLinesFilled, IconBrandCashapp } from '@tabler/icons-react'
+import {IconPigMoney, IconWallet, IconBrandCashapp } from '@tabler/icons-react'
 import SumarioItem from './SumarioItem'
 
 interface SumarioProps {

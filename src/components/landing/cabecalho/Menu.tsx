@@ -20,7 +20,7 @@ export default function Menu () {
             </MenuItem>
             <MenuItem 
                 onClick={loginGoogle}
-                className="bg-green-600">
+                className="bg-green-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-[#00BC63] duration-300">
                 <div className="flex items-center gap-2 text-white font-sans font-medium shadow-sm">
                     <IconBrandGoogleAnalytics size={20} />
                         <span>Entrar</span>
