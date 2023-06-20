@@ -71,8 +71,8 @@ export default function Financas() {
                         Nenhuma transação encontrada
                     </NaoEncontrado>
                 )}
-                <Graficos />
             </Conteudo>
+                <Graficos />
         </Pagina>
     )
 }
