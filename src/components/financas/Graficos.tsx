@@ -12,7 +12,6 @@ export default function Graficos() {
                     <BarChart2 />
                     </div>
             </div>
-            Gráfico em breve.....
         </div>
     )
 }
