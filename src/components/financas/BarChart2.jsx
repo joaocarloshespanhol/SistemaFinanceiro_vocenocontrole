@@ -36,7 +36,7 @@ useEffect(() => {
                 data: [1820, 2201, 19490, 17938, 24182, 17842, 22475],
                 borderColor: 'rgb(199, 28, 57)',
                 backgroundColor: 'rgb(53, 162, 235, 10',
-                borderRadius: 2
+                border: 2
             },
         ]
     })
