@@ -21,7 +21,11 @@ ChartJS.register(
 
 const BarChart2 = () => {
     const [chartData, setChartData] = useState ({
-        datasets: [],
+        datasets: [{
+            backgroundColor: ['#0082C9', '#FCB813'],
+            data: [60, 40],
+            borderWidth: 1,
+        }],
 
     });
 
@@ -32,11 +36,9 @@ useEffect(() => {
         labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
         datasets: [
             {
-                label: 'Despesas',
-                data: [1820, 2201, 19490, 17938, 24182, 17842, 22475],
-                borderColor: 'rgb(199, 28, 57)',
-                backgroundColor: 'rgb(53, 162, 235, 10',
-                border: 2
+                backgroundColor: ['#0082C9', '#FCB813'],
+                data: [60, 40],
+                borderWidth: 1,
             },
         ]
     })
