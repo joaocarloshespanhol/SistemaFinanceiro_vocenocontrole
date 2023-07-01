@@ -19,7 +19,7 @@ ChartJS.register(
     Legend
 );
 
-const BarChart = () => {
+const BarChart2 = () => {
     const [chartData, setChartData] = useState ({
         datasets: [],
 
@@ -32,10 +32,10 @@ useEffect(() => {
         labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
         datasets: [
             {
-                label: 'Receitas',
+                label: 'Despesas',
                 data: [12820, 2209, 19490, 17938, 24182, 17842, 22475, 30001, 14522, 9490, 17938, 24182 ],
-                borderColor: 'rgb(0, 211, 183)',
-                backgroundColor: 'rgb(0, 211, 183)',
+                borderColor: 'rgb(192, 11, 65)',
+                backgroundColor: 'rgb(192, 11, 65)',
                 borderRadius: 10,
             },
         ]
@@ -51,4 +51,4 @@ useEffect(() => {
     );
 };
 
-export default BarChart;
+export default BarChart2;
