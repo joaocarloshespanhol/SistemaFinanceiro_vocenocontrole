@@ -49,19 +49,14 @@ export default function CampoMesAno(props: CampoMesAnoProps) {
 
     return (
         <div className="flex items-center gap-2">
-            <Button className={`
-                flex justify-center items-center bg-sky-500
-                text-white cursor-pointer p-1
-            `} color="bg-sky-600" onClick={decrementar}>
+            <Button className="flex justify-center items-center bg-sky-500 text-white cursor-pointer p-1"
+                color="bg-sky-600" onClick={decrementar}>
                 <IconChevronLeft size={14} />
             </Button>
             <Popover withArrow>
                 <Popover.Target>
-                    <Button className={`
-                        bg-sky-500
-                        text-white cursor-pointer select-none 
-                        w-full sm:w-44 px-3
-                    `}>{Data.mmyy.formatar(data)}</Button>
+                    <Button className="bg-sky-500 text-white cursor-pointer select-none w-full sm:w-44 px-3">
+                        {Data.mmyy.formatar(data)}</Button>
                 </Popover.Target>
                 <Popover.Dropdown>
                     <div className="flex justify-center mb-5">

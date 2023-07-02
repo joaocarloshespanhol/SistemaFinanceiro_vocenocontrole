@@ -2,7 +2,6 @@
 
 import AutenticacaoContext from "@/data/contexts/AutenticacaoContext";
 import { useContext } from "react"
-import Img from "../../Img/Cabecalho/dazzle-money-rise.png";
 
 export default function BoasVindas() {
 
