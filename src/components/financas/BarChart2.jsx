@@ -25,22 +25,33 @@ const BarChart2 = () => {
 
     });
 
-const [chartOptions, setChartOptions] = useState({});
+const [chartOptions, setChartOptions] = useState({
+    
+});
 
 useEffect(() => {
     setChartData({
         labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
         datasets: [
             {
+                label: 'Receitas',
+                data: [12820, 6000, 19490, 17938, 24182, 17842, 22475, 30001, 14522, 9490, 17938, 24182 ],
+                borderColor: 'rgb(0, 211, 183)',
+                backgroundColor: 'rgb(0, 211, 183)',
+                borderRadius: 2,
+            },
+            {
                 label: 'Despesas',
-                data: [12820, 2209, 19490, 17938, 24182, 17842, 22475, 30001, 14522, 9490, 17938, 24182 ],
+                data: [10000, 2000, 15000, 14000, 20000, 16000, 18000, 20000, 11000, 4000, 14000, 18000 ],
                 borderColor: 'rgb(192, 11, 65)',
                 backgroundColor: 'rgb(192, 11, 65)',
-                borderRadius: 6,
+                borderRadius: 3,
             },
         ]
     })
-}, [])
+},
+
+[])
 
     return (
         <>
