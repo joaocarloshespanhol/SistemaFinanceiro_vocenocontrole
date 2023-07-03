@@ -11,6 +11,9 @@ export default function Graficos() {
                 <div className="flex box-shadow w-80 h-40 md:w-[710px] md:h-[420px] lg:w-[960px] lg:h-[420px] xl:w-[620px] xl:h-[430px] 2xl:w-[400px] 2xl:h-[] rounded-lg border border-zinc-800">
                     <BarChart />    
                 </div>
+                <div className="flex box-shadow w-80 h-40 md:w-[710px] md:h-[420px] lg:w-[960px] lg:h-[420px] xl:w-[620px] xl:h-[430px] 2xl:w-[400px] 2xl:h-[] rounded-lg border border-zinc-800">
+                    <BarChart />    
+                </div>
             </div>
         </div>
     )
