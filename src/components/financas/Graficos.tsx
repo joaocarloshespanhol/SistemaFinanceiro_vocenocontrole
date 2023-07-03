@@ -1,5 +1,5 @@
 import {BarChart} from "./BarChart";
-import BarChart2 from "./BarChart2"
+import { BarChart2 } from "./BarChart2";
 
 export default function Graficos() {
     return(
