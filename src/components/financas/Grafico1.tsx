@@ -96,7 +96,7 @@ export const options = {
     },
     title: {
       display: true,
-      text: 'Gráfico de Barras',
+      text: 'Gráfico 1',
     },
   },
 };
@@ -109,18 +109,18 @@ export const data = {
     {
       label: 'Receitas',
       data: [12820, 6000, 19490, 17938, 24182, 17842, 22475, 30001, 14522, 9490, 17938, 24182 ],
-      backgroundColor: 'rgb(0, 211, 183)',
+      backgroundColor: 'rgb(66, 132, 244)',
       borderRadius: 4,
     },
     {
       label: 'Despesas',
       data:[10000, 2000, 15000, 14000, 20000, 16000, 18000, 20000, 11000, 4000, 14000, 18000 ],
-      backgroundColor: 'rgb(68, 68, 68)',
+      backgroundColor: 'rgb(30, 69, 132)',
       borderRadius: 4,
     },
   ],
 };
 
-export function BarChart2() {
+export function Grafico1() {
   return <Bar options={options} data={data} />;
 }

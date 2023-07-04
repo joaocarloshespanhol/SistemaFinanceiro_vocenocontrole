@@ -8,7 +8,7 @@ export default function Menu () {
     const { loginGoogle } = useContext(AutenticacaoContext)
 
     return (
-        <div className="flex gap-2 font-mono font-black">
+        <div className="flex gap-2 font-sans font-semibold text-md">
             <MenuItem url="#inicio" className="hidden sm:flex">
                 Início
             </MenuItem>
