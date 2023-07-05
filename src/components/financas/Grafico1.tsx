@@ -92,7 +92,7 @@ export const options = {
   responsive: true,
   plugins: {
     legend: {
-      position: 'top' as const,
+      position: 'center' as const,
     },
     title: {
       display: true,
