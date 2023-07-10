@@ -12,7 +12,7 @@ export const options = {
     },
     title: {
       display: true,
-      text: 'Gráfico 3 - Clicar para visualizar',
+      text: 'Gráfico 3',
     },
   },
 };
