@@ -7,11 +7,11 @@ export default function Slogan() {
     function renderizarFrase() {
         return (
             <div
-                className="flex flex-col items-center md:items-start text-4xl lg:text-6xl text-white font-ligh">
+                className="flex flex-col items-center md:items-start text-5xl lg:text-6xl text-white font-ligh">
                 <div className="flex gap-2.5">
                     <div className={`relative`}>
                         <span
-                            className="absolute bottom-1 left-0 w-full border-b-8 border-green-500">
+                            className="absolute bottom-1 left-0 w-full border-b-4 border-green-500">
                         </span> 
                         <span className="relative">Melhor</span>
                             <div>experiência</div>

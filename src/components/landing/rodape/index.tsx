@@ -15,7 +15,7 @@ export default function Rodape() {
             <div className="flex flex-col md:flex-row md:justify-between items-center mt-14">
                 <RedesSociais />
                 <p className="text-white mt-7 md:mt-0 text-center">
-                    <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-green-500">JC Desenvolvedor Web</span> <span>® 2023 - Todos os direitos reservados.</span>
+                    <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-green-500">JC Desenvolvedor Web</span> <span>® 2023 <br/> Todos os direitos reservados.</span>
 
                 </p>
             </div>

@@ -9,18 +9,18 @@ export default function Menu () {
 
     return (
         <div className="flex gap-2 font-sans font-semibold text-md">
-            <MenuItem url="#inicio" className="hidden sm:flex">
+            <MenuItem url="#inicio" className="hidden sm:flex hover:-translate-y-1 hover:scale-110 hover:bg-[#00BC63] duration-300">
                 Início
             </MenuItem>
-            <MenuItem url="#vantagens" className="hidden sm:flex">
+            <MenuItem url="#vantagens" className="hidden sm:flex hover:-translate-y-1 hover:scale-110 hover:bg-[#00BC63] duration-300">
                 Vantagens
             </MenuItem>
-            <MenuItem url="#motivos" className="hidden sm:flex">
+            <MenuItem url="#motivos" className="hidden sm:flex hover:-translate-y-1 hover:scale-110 hover:bg-[#00BC63] duration-300">
                 Benefícios
             </MenuItem>
             <MenuItem 
                 onClick={loginGoogle}
-                className="bg-green-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-[#00BC63] duration-300">
+                className="bg-green-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#00BC63] duration-300">
                 <div className="flex items-center gap-2 text-white font-sans font-medium shadow-sm">
                     <IconBrandGoogleAnalytics size={20} />
                         <span>Entrar</span>

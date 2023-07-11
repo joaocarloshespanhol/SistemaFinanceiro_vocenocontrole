@@ -21,6 +21,6 @@ export default function MenuItem(props: MenuItemProps) {
     }
 
     return props.url ? (
-        <Link href={props.url ?? ''}>{renderizarBotao()}</Link>
+        <Link href={props.url ?? ''} scroll={false}>{renderizarBotao()}</Link>
     ) : renderizarBotao()
 }
