@@ -29,6 +29,7 @@ export default function Sumario(props: SumarioProps) {
                 valor={receitas}
                 icone={<IconBrandCashapp />}
                 iconeClassName="text-green-500"
+                valorClassName={total > 0 ? 'text-green-500' : ''}
             />
             <SumarioItem
                 titulo='Despesas'
