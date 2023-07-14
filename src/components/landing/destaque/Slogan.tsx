@@ -11,7 +11,7 @@ export default function Slogan() {
                 <div className="flex gap-2.5">
                     <div className={`relative`}>
                         <span
-                            className="absolute bottom-1 left-0 w-full border-b-4 border-green-500">
+                            className="absolute bottom-0 left-0 w-full border-b-8 border-green-500">
                         </span> 
                         <span className="relative">Melhor</span>
                             <div>experiência</div>

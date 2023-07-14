@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import loading from '../../../public/loading.gif'
+import loading from '../Images/loading.gif'
 import Pagina from './Pagina'
 
 export default function Carregando() {

@@ -6,7 +6,7 @@ export default function Graficos() {
     return(
         <div className="mx-auto">
             <div className="flex xl:flex-row flex-col gap-4 xl:gap-2 2xl:gap-2">
-                <div className="flex box-shadow justify-center items-center w-[360px] h-[180px] md:w-[710px] md:h-[420px] lg:w-[960px] lg:h-[420px] xl:w-[640px] xl:h-[300px] 2xl:w-[740px] 2xl:h-[350px] rounded-lg border border-zinc-800">
+                <div className="flex box-shadow justify-center items-center w-[360px] h-[180px]  md:w-[710px] md:h-[420px] lg:w-[960px] lg:h-[420px] xl:w-[640px] xl:h-[300px] 2xl:w-[740px] 2xl:h-[350px] rounded-lg border border-zinc-800">
                     <Grafico1 />
                 </div>
                 <div className="flex box-shadow justify-center items-center w-[360px] h-[180px] md:w-[710px] md:h-[420px] lg:w-[960px] lg:h-[420px] xl:w-[460px] xl:h-[300px] 2xl:w-[700px] 2xl:h-[350px] rounded-lg border border-zinc-800">

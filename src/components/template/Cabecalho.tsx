@@ -6,7 +6,6 @@ export default function Cabecalho() {
         <div className="flex justify-between items-center p-7 bg-black shadow-lg">
             <BoasVindas />
             <MenuUsuario />
-            
         </div>
     )
 }
