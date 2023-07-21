@@ -9,9 +9,9 @@ export default function Slogan() {
             <div
                 className="flex flex-col items-center md:items-start text-5xl lg:text-6xl text-white font-ligh">
                 <div className="flex gap-2.5">
-                    <div className={`relative`}>
+                    <div className="relative">
                         <span
-                            className="absolute bottom-0 left-0 w-full border-b-8 border-green-500">
+                            className="absolute bottom-0 left-0 w-full border-b-4 border-green-500">
                         </span> 
                         <span className="relative">Melhor</span>
                             <div>experiência</div>
@@ -24,12 +24,9 @@ export default function Slogan() {
                 <div className="flex gap-2.5">
                     <span>seu</span>
                     <span
-                        className={`
-                        flex items-center p-1
-                        relative text-zinc-900
-                    `}
+                        className="flex items-center p-1 relative text-zinc-900"
                     >
-                        <span className="absolute top-0.5 left-0 w-full h-5/6 bg-green-500 rounded-sm" />
+                        <span className="absolute top-3 left-0 w-full h-5/6 bg-green-500 rounded-sm" />
                         <span className="relative z-20">dinheiro</span>
                     </span>
                 </div>
