@@ -18,10 +18,8 @@ export default function Vantagem(props: VantagemProps) {
                 imagem={props.imagem}
                 className={props.inverter ? 'sm:rotate-0' : 'sm:-rotate-0'}
             />
-            <div className={`
-                flex flex-col gap-y-6 sm:w-[350px]
-                text-center sm:text-left
-            `}>
+            <div className="flex flex-col gap-y-4 lg:gap-y-6 sm:w-[350px] text-center sm:text-left"
+            >
                 <div className={`
                     flex flex-col text-white
                     font-black text-2xl sm:text-4xl

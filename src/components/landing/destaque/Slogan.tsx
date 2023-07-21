@@ -26,7 +26,7 @@ export default function Slogan() {
                     <span
                         className="flex items-center p-1 relative text-zinc-900"
                     >
-                        <span className="absolute top-3 left-0 w-full h-5/6 bg-green-500 rounded-sm" />
+                        <span className="absolute top-2 lg:top-3 left-0 w-full h-5/6 bg-green-500 rounded-sm" />
                         <span className="relative z-20">dinheiro</span>
                     </span>
                 </div>
