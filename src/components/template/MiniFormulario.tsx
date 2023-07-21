@@ -11,21 +11,17 @@ interface MiniFormularioProps {
 
 export default function MiniFormulario(props: MiniFormularioProps) {
     return (
-        <div className={`
-            flex flex-col overflow-hidden
-            border border-zinc-800 rounded-lg
-        `}>
+        <div className="flex flex-col overflow-hidden border border-zinc-800 rounded-lg"
+            >
             <div className="flex flex-col p-7">
-                <div className="text-3xl font-black">{props.titulo}</div>
-                <div className="mt-4 text-gray-500">{props.descricao}</div>
+                <div className="text-[20px] font-black">{props.titulo}</div>
+                <div className="mt-4 text-white">{props.descricao}</div>
                 <div className="mt-3">
                     {props.children}
                 </div>
             </div>
-            <div className={`
-                flex justify-end md:justify-between items-center
-                bg-black px-7 py-5
-            `}>
+            <div className="flex justify-end md:justify-between items-center bg-black px-7 py-5"
+            >
                 <span className="hidden md:inline text-gray-500">{props.msgRodape}</span>
                 <Button
                     color={props.podeSalvar ? 'green' : 'gray'}
