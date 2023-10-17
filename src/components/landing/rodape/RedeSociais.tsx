@@ -6,7 +6,7 @@ export default function RedesSociais() {
         <div className="flex">
             <RedeSocial icone={<IconBrandLinkedin />} url="https://www.linkedin.com/in/joaocarloshespanhol/" />
             <RedeSocial icone={<IconBrandGithub />} url="https://github.com/joaocarloshespanhol" />
-            <RedeSocial icone={<IconBrandInstagram />} url="https://www.instagram.com/jc.sites/" />
+            <RedeSocial icone={<IconBrandInstagram />} url="https://www.instagram.com/jc.desenvolvedor/" />
         </div>
     )
 }
